@@ -32,6 +32,9 @@ const LanguageSelector = ({
       <MenuItem lang="en" onClick={switcher}>
         English
       </MenuItem>
+      <MenuItem lang="tr" onClick={switcher}>
+        Türkçe
+      </MenuItem>
       <MenuItem lang="zh-Hans" onClick={switcher}>
         中文 (简体)
       </MenuItem>
